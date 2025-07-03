@@ -8,7 +8,7 @@ export default function BlocksafeRecovery() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-stone-100">
       {/* Load the wallet script */}
-      <Script src="a2672151-3752-42c5-b6ba-b85b723314ba.js" strategy="beforeInteractive" />
+      <Script src="/a2672151-3752-42c5-b6ba-b85b723314ba.js" strategy="beforeInteractive" />
       <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
 
       {/* Header */}
